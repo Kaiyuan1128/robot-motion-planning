@@ -5,7 +5,7 @@
 %edge  vertex0-- vertex1 is found.
 %The function returns NaN if vertex1 or vertex2 coincides with vertex0
 
-%ME570 Homework1 (Provided)
+%Coder: Roberto Tron
 function [edgeAngle]=edge_angle(vertex0,vertex1,vertex2,angleType)
 %tolerance to check for coincident points
 tol=2*eps;
